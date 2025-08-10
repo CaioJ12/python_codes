@@ -15,9 +15,9 @@ def criar_multiplicacao(number):
     return result
 
 multiply_one = criar_multiplicacao(2)
-#dobro, triplo, quadruplo = criar_multiplicacao(2)
+dobro, triplo, quadruplo = criar_multiplicacao(2)
 
-print('O resultado é: ', *multiply_one)
+print(f'O resultado é: dobro = {dobro}, triplo = {triplo}, quádruplo = {quadruplo}')
 
 
 #result = criar_multiplicacao
